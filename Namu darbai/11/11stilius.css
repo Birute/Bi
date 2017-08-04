@@ -1,0 +1,23 @@
+h1{
+  color:rgba(255, 51, 85, 1);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h2{
+  color:rgba(255, 51, 85, 1);
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+div{
+  width: 500px;
+}
+.first-word{
+  font-style: italic;
+}
+.font1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 11pt;
+}
+.font2{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 10pt;
+  color: rgba(102, 60, 0, 1);
+}
