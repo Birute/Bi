@@ -1,0 +1,12 @@
+1. Puikiai.
+2. Puikiai
+3. Labai gerai. Pasitikrinkite ar html kode elementai visi tvarkingai pastumti nuo kraðto.
+4. Labai gerai. Pasitikrinkite ar html kode elementai visi tvarkingai pastumti nuo kraðto. figure elemente esantys elementai turi bûti dar patraukti nuo kraðto.
+5. Labai gerai. td elementai yra tr elemento viduje todël turi bûti dar labiau patraukti nuo kraðto.
+6. Puikiai
+7. Puikiai
+8. Puikiai
+9. Puikiai
+10. Puikiai
+11. Puikiai
+12. Labai gerai. Tik stiliaus apraðyto html elemente nerekomenduoju.
