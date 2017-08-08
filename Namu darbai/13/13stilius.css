@@ -1,0 +1,45 @@
+div{
+  weight:300px;
+}
+
+h1{
+  color:rgba(43, 136, 218, 1);
+  font-family: Georgia, Times, serif;
+  text-shadow: 1px 1px grey;
+  margin-bottom: 0px;
+}
+h2{
+  color:rgba(43, 136, 218, 1);
+  font-family: Georgia, Times, serif;
+  font-size: 12pt;
+}
+h3{
+  color: rgba(43, 136, 218, 1);
+  font-family: "Gill Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 8pt;
+}
+p{
+  width: 600px;
+  font-family: Arial, Verdana, sans-serif;
+}
+.p1{
+  color: rgb(116, 77, 37);
+  font-weight: bold;
+  font-size: 9pt;
+}
+a{
+  text-decoration: none;
+}
+.p2{
+  color: rgb(116, 77, 37);
+  font-weight:normal;
+  font-size: 9pt;
+}
+.p3{
+   text-align: right;
+   font-size: 9pt;
+   font-style: italic;
+   color: rgb(116, 77, 37);
+}
