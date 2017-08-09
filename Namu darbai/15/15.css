@@ -1,0 +1,25 @@
+input{
+  border-color: rgba(226, 227, 228, 1);
+  color: rgb(21, 28, 66);
+  height: 50px;
+  width: 70px;
+  font-size: 13pt;
+  background-color: rgb(195, 213, 247);
+  font-weight: bold;
+}
+input:active{
+  border: 1px solid rgba(106, 192, 246, 1);
+}
+.answer{
+  background-color: white;
+  width: 290px;
+  height: 50px;
+  color: black;
+  text-align: right;
+}
+table{
+  border-style: outset;
+}
+.operation{
+  background-color: rgb(244, 231, 203);
+}
