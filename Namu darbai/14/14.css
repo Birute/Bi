@@ -1,0 +1,81 @@
+.div2{
+  width: 1000px;
+  height: 400px;
+  border: 4px double black;
+  padding: 25px;
+  margin: 0px;
+}
+img{
+  position: static;
+  margin-left: 200px;
+  margin-top: 5px;
+}
+.p1{
+  text-align: center;
+  margin: 0px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0px;
+  text-shadow: 1px 1px grey;
+}
+.p2{
+  text-align: center;
+  margin: 0px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+.p3{
+  text-align: center;
+  margin: 0px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15pt;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.p4{
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+ul{
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 180px;
+  margin-top: 25px;
+  border-top: solid 2px;
+  padding-top: 10px;
+  border-bottom: solid 1px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ul li{
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 15px;
+}
+ul a{
+  text-decoration: none;
+}
+*{
+  color: rgb(77, 38, 0);
+}
+ul a:hover{
+  color: rgb(230, 115, 0);
+}
+.div1{
+  width: 800px;
+  height: 350px;
+  border: none;
+  padding: 0px;
+}
+.p{
+  text-align: center;
+}
+.p5{
+  margin-left: 200px;
+  width: 600px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10pt;
+}
