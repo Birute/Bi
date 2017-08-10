@@ -1,0 +1,65 @@
+@font-face{
+  font-family: "Lobster";
+  src: url("Lobster-Regular.ttf");
+}
+body{
+  width: 800px;
+  font-family: "Lobster";
+}
+div{
+  width: 100px;
+  height: 100px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0,0.5);
+  margin: 2px;
+  float: left;
+  background-color: #f9f9fc;
+  border-radius: 10px;
+}
+p{
+  width: 80px;
+  margin: 10px;
+  font-family: cursive;
+  padding:2px;
+  border-radius:5px;
+  font-size:10pt;
+}
+.weekend{
+  background-color: #9ff2ee;
+}
+.spektaklis{
+  background-color: #c8f19e;
+}
+.koncertas{
+background-color: #e5c7e8;
+}
+.konferencija{
+background-color: #f7b7ad;
+}
+.darbobalius{
+background-color: #95bef4;
+}
+h1{
+  text-shadow: 1px 3px grey;
+  color: rgb(73, 74, 79);
+  font-size: 25pt;
+}
+span{
+  background-color: #effbfc;
+  border: 1px solid black;
+  padding: 20px;
+  display: none;
+  width: 70px;
+  height:15px;
+  z-index: 1;
+  position:relative;
+  border-radius:5px;
+  font-family: cursive;
+  font-size:8pt;
+}
+p:hover+span{
+  display: block;
+}
+.spektaklis:hover, .koncertas:hover, .konferencija:hover, .darbobalius:hover{
+  font-weight: bold;
+  background-color: yellow;
+}
