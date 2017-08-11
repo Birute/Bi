@@ -1,0 +1,28 @@
+body{
+  background-color: #e1f5fe;
+}
+.browser-default{
+  width: 130px;
+  height: 35px;
+  font-size: 12pt;
+}
+legend{
+  font-weight: bold;
+  font-style: italic;
+}
+fieldset{
+  margin: 50px 50px 50px 50px;
+}
+button{
+  margin-top: 20px;
+  margin-left: 500px;
+}
+p{
+  display: inline;
+}
+select{
+  display: inline;
+}
+select{
+  display: inline;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/16.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+      <fieldset>
+        <legend>Jūsų informacija:</legend>
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">Vardas</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">email</i>
+            <input id="icon_email" type="email" class="validate">
+            <label for="icon_email">Paštas</label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Apžvalga:</legend>
+        <br />
+        Kaip išgirdote apie mus?
+        <select  class="browser-default">
+          <option value="1">Google</option>
+          <option value="2">Facebook</option>
+          <option value="3">Iš draugų</option>
+          <option value="4">Kita</option>
+        </select>
+        <br />
+        <form action="#">
+          Ar apsilankysite vėl?
+          <p>
+            <input name="group1" type="radio" id="test1" />
+            <label for="test1">Taip</label>
+          </p>
+          <p>
+            <input name="group1" type="radio" id="test2" />
+            <label for="test2">Ne</label>
+          </p>
+          <p>
+            <input name="group1" type="radio" id="test3" />
+            <label for="test3">Galbūt</label>
+          </p>
+        </form>
+        <br />
+        <form class="col s12">
+         <div class="row">
+           <div class="input-field col s12">
+             <textarea id="textarea1" class="materialize-textarea"></textarea>
+             <label for="textarea1">Komentaras</label>
+           </div>
+         </div>
+        </form>
+        <form action="#">
+          <p>
+            <input type="checkbox" id="test5" />
+            <label for="test5">Užsakykite naujienas</label>
+          </p>
+        </form>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Siųsti
+          <i class="material-icons right">send</i>
+        </button>
+      </fieldset>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  </body>
+</html>
