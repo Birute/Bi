@@ -10,3 +10,7 @@
 10. Puikiai
 11. Puikiai
 12. Labai gerai. Tik stiliaus aprağyto html elemente nerekomenduoju.
+13. Puikiai. Nebûtina ğiuo atveju p elementui nurodyti width :)
+14. Puikia. Nerealu :)
+15. Puikiai. Graşu.
+17. Puikiai. Uşvedus ğauniai sumanyta.
