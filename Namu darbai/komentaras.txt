@@ -13,4 +13,5 @@
 13. Puikiai. Nebûtina ğiuo atveju p elementui nurodyti width :)
 14. Puikia. Nerealu :)
 15. Puikiai. Graşu.
+16. Puikiai. Materialize katalogas nebûtinai atskiras. Galima paimti js ir css ir sudëti atitinkamai á css ir js katalogus prie savo rağomø.
 17. Puikiai. Uşvedus ğauniai sumanyta.
