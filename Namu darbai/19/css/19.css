@@ -1,0 +1,15 @@
+#lentute{
+  margin-top: 50px;
+}
+th{
+  padding-right: 200px;
+}
+tr:nth-child(2n+0){
+  background: rgb(249, 226, 255);
+}
+tr:nth-child(2n+3){
+  background: rgb(246, 244, 247);
+}
+table{
+  border-collapse: collapse;
+}
