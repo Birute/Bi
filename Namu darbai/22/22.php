@@ -32,7 +32,9 @@
       }
     }
 
-  function GetAutoDescriptionsWithFor($y){
+  GetAutoDescriptionsWithWhile($autos);
+
+    function GetAutoDescriptionsWithFor($y){
     for($i=0; $i<6; $i++){
         switch($y[$i]){
           case "BMW":
