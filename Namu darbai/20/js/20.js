@@ -49,62 +49,63 @@ $(function(){
   var firstWeekDay = getfirstmonthdayweekday();
   $("#month").html(GetMonthInLT()).attr({class:"h1"});
 
-while(true){
-  var week = $("<div></div>");
-  week.attr({class:"week"});
-  week.attr({id:"week"+currentweek});
-  $("#calendar").append(week);
+  while(true){
+    var week = $("<div></div>");
+    week.attr({class:"week"});
+    week.attr({id:"week"+currentweek});
+    $("#calendar").append(week);
 
-for (var i = 1; i <= 7; i++) {
-  if(firstWeekDay == i){
-    printDays = true;
-  }
-
-if(currentDay>daysInCurrentmonth){
-  printDays = false;
-}
-
-  if (printDays){
-    var day = $("<div></div>");
-    day.attr({class:"day"});
-    day.attr({id:"day"+currentDay});
-    day.text(currentDay);
-    week.append(day);
-
-    if(getdaysnr(currentDay)==6||getdaysnr(currentDay)==0){
-      day.attr({class:"weekend"});
-    }
-    if(currentDay==4||currentDay==9||currentDay==19||currentDay==21){
-      day.attr({id:"event"+currentDay});
-      var renginys = $("<p></p>");
-      renginys.text("Renginys");
-      switch(currentDay){
-        case 4:
-          renginys.text("Spektaklis");
-          break;
-        case 9:
-          renginys.text("Koncertas");
-          break;
-        case 19:
-          renginys.text("Konferencija");
-          break;
-        case 21:
-          renginys.text("Darbo balius");
+    for (var i = 1; i <= 7; i++) {
+      if(firstWeekDay == i){
+        printDays = true;
       }
-      day.append(renginys);
+
+      if(currentDay>daysInCurrentmonth){
+        printDays = false;
+      }
+
+      if (printDays){
+        var day = $("<div></div>");
+        day.attr({class:"day"});
+        day.attr({id:"day"+currentDay});
+        day.text(currentDay);
+        week.append(day);
+
+        if(getdaysnr(currentDay)==6||getdaysnr(currentDay)==0){
+          day.attr({class:"weekend"});
+        }
+
+        if(currentDay==4||currentDay==9||currentDay==19||currentDay==21){
+          day.attr({id:"event"+currentDay});
+          var renginys = $("<p></p>");
+          renginys.text("Renginys");
+          switch(currentDay){
+            case 4:
+              renginys.text("Spektaklis");
+              break;
+            case 9:
+              renginys.text("Koncertas");
+              break;
+            case 19:
+              renginys.text("Konferencija");
+              break;
+            case 21:
+              renginys.text("Darbo balius");
+          }
+          day.append(renginys);
+        }
+        currentDay++;
+      }
+      else{
+        var day = $("<div></div>");
+        day.attr({class:"day"});
+        day.text("");
+        week.append(day);
+      }
     }
-    currentDay++;
+    if (currentweek == 5){
+      break;
     }
-  else{
-    var day = $("<div></div>");
-    day.attr({class:"day"});
-    day.text("");
-    week.append(day);
-  }
-}
-if (currentweek == 5){
-  break;
-}
   currentweek++;
-}
+  }
 });
