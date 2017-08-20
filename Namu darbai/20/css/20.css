@@ -1,0 +1,41 @@
+#calendar{
+  width:100%;
+  height: auto;
+}
+.week{
+  height: 105px;
+}
+.day, .weekend{
+  width: 100px;
+  height: 100px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0,0.5);
+  margin: 2px;
+  float: left;
+  border-radius: 10px;
+}
+.h1{
+  text-shadow: 1px 3px grey;
+  color: rgb(73, 74, 79);
+  font-size: 25pt;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.weekend{
+  background-color: #9ff2ee;
+}
+p{
+  width: 80px;
+  margin: 10px;
+  font-family: cursive;
+  padding:2px;
+  border-radius:5px;
+  font-size:10pt;
+}
+#event4 p, #event9 p, #event19 p, #event21 p{
+  background-color: pink;
+}
+#event4 p:hover, #event9 p:hover, #event19 p:hover, #event21 p:hover{
+  background-color: yellow;
+  font-weight: bold;
+}
