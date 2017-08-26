@@ -15,3 +15,9 @@
 15. Puikiai. Graşu.
 16. Puikiai. Materialize katalogas nebûtinai atskiras. Galima paimti js ir css ir sudëti atitinkamai á css ir js katalogus prie savo rağomø.
 17. Puikiai. Uşvedus ğauniai sumanyta.
+18. Puikiai. Tik jei naudoji nutolusá resursà <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>, nereikia á js katalogà dëti jquery failo.
+19. Puikiai. Tik jei naudoji nutolusá resursà <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>, nereikia á js katalogà dëti jquery failo.
+20. Na ğitas sunkesnis. Nëra json failo :(
+21. Puikiai.
+22. Puikiai.
+23. Puikiai.
